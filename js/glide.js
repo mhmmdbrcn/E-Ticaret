@@ -4,6 +4,7 @@ export function product1() {
     perView: 4,
     gap: 20,
     /*   autoplay: 3000, */
+    bound: true,
     breakpoints: {
       992: {
         perView: 3,
