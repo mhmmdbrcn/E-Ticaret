@@ -7,7 +7,7 @@ import productsFunc from "./products.js";
   const data = await photos.json();
 
   data ? localStorage.setItem("products", JSON.stringify(data)) : [];
-  productsFunc();
+  productsFunc(data);
 })();
 //! add product to localStorage end
 

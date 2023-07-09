@@ -32,13 +32,13 @@
                         <i class="bi bi-list" id="btn-menu"></i>
                     </div>
                     <div class="header-left">
-                        <a href="#" class="logo">LOGO</a>
+                        <a href="index.html" class="logo">LOGO</a>
                     </div>
                     <div class="header-center" id="sidebar">
                         <nav class="navigation">
                             <ul class="menu-list">
                                 <li class="menu-list-item">
-                                    <a href="index.html" class="menu-link active">
+                                    <a href="index.html" class="menu-link">
                                         Home
                                         <i class="bi bi-chevron-down"></i>
                                     </a>
@@ -189,7 +189,7 @@
                     </div>
                     <div class="header-right">
                         <div class="header-right-links">
-                            <a href="#" class="header-account">
+                            <a href="account.html" class="header-account">
                                 <i class="bi bi-person"></i>
                             </a>
                             <button class="search-button">
@@ -211,6 +211,7 @@
         </div>
     </header>
     <!--! header end  -->
+
     <!--! modal search start  -->
     <div class="modal-search">
         <div class="modal-wrapper">
@@ -249,6 +250,7 @@
         </div>
     </div>
     <!--! modal search end  -->
+
     <!--! single product start  -->
     <section class="single-product">
         <div class="container">
@@ -265,6 +267,7 @@
                     </nav>
                 </div>
                 <!-- breadcrumb end -->
+
                 <!-- site main start -->
                 <div class="single-content">
                     <main class="site-main">
@@ -274,9 +277,7 @@
                             </div>
                             <div class="product-thumb">
                                 <div class="glide__track" data-glide-el="track">
-                                    <ol class="gallery-thumbs glide__slides">
-
-                                    </ol>
+                                    <ol class="gallery-thumbs glide__slides"></ol>
                                 </div>
                                 <div class="glide__arrows" data-glide-el="controls">
                                     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
@@ -307,8 +308,8 @@
                                 <strong class="new-price">$100</strong>
                             </div>
                             <p class="product-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
                             </p>
                             <form class="variations-form">
                                 <div class="variations">
@@ -319,22 +320,22 @@
                                         <div class="colors-wrapper">
                                             <div class="color-wrapper">
                                                 <label class="blue-color">
-                                                    <input type="radio" name="product-color" />
+                                                    <input type="radio" name="product-color">
                                                 </label>
                                             </div>
                                             <div class="color-wrapper">
                                                 <label class="red-color">
-                                                    <input type="radio" name="product-color" />
+                                                    <input type="radio" name="product-color">
                                                 </label>
                                             </div>
                                             <div class="color-wrapper active">
                                                 <label class="green-color">
-                                                    <input type="radio" name="product-color" />
+                                                    <input type="radio" name="product-color">
                                                 </label>
                                             </div>
                                             <div class="color-wrapper">
                                                 <label class="purple-color">
-                                                    <input type="radio" name="product-color" />
+                                                    <input type="radio" name="product-color">
                                                 </label>
                                             </div>
                                         </div>
@@ -398,40 +399,36 @@
                 <div class="single-tabs">
                     <ul class="tab-list">
                         <li>
-                            <a href="#" class="tab-button active">Description</a>
+                            <a href="#" class="tab-button active" data-id="desc">Description</a>
                         </li>
                         <li>
-                            <a href="#" class="tab-button"> Additional information </a>
+                            <a href="#" class="tab-button" data-id="info">
+                                Additional information
+                            </a>
                         </li>
                         <li>
-                            <a href="#" class="tab-button"> Reviews </a>
+                            <a href="#" class="tab-button" data-id="reviews">
+                                Reviews
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-panel">
-                        <div class="tab-panel-descriptions">
-                            <p>
-                                Quisque varius diam vel metus mattis, id aliquam diam rhoncus.
-                                Proin vitae magna in dui finibus malesuada et at nulla. Morbi
-                                elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce
-                                fermentum iaculis nibh, at sodales leo maximus a. Nullam
-                                ultricies sodales nunc, in pellentesque lorem mattis quis.
-                                Cras imperdiet est in nunc tristique lacinia. Nullam aliquam
-                                mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet
-                                vel ornare vel, dignissim a tortor.
-                            </p>
-                            <br />
-                            <p>
-                                Quisque varius diam vel metus mattis, id aliquam diam rhoncus.
-                                Proin vitae magna in dui finibus malesuada et at nulla. Morbi
-                                elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce
-                                fermentum iaculis nibh, at sodales leo maximus a. Nullam
-                                ultricies sodales nunc, in pellentesque lorem mattis quis.
-                                Cras imperdiet est in nunc tristique lacinia. Nullam aliquam
-                                mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet
-                                vel ornare vel, dignissim a tortor.
-                            </p>
+                        <div class="tab-panel-descriptions content active" id="desc">
+                            <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                                finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                                ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                                nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                                Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare
+                                vel, dignissim a tortor.</p>
+                            <br>
+                            <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                                finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                                ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                                nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                                Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare
+                                vel, dignissim a tortor.</p>
                         </div>
-                        <div class="tab-panel-information">
+                        <div class="tab-panel-information content" id="info">
                             <h3>Additional information</h3>
                             <table>
                                 <tbody>
@@ -439,29 +436,26 @@
                                         <th>Color</th>
                                         <td>
                                             <p>
-                                                Apple Red, Bio Blue, Sweet Orange, Blue, Green, Pink,
-                                                Black, White
-                                            </p>
+                                                Apple Red, Bio Blue, Sweet Orange, Blue, Green, Pink, Black, White</p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>Size</th>
                                         <td>
-                                            <p>XXS, XS, S, M, L, XL, XXL</p>
+                                            <p>
+                                                XXS, XS, S, M, L, XL, XXL</p>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div class="tab-panel-reviews">
-                            <h3>
-                                2 reviews for Basic Colored Sweatpants With Elastic Hems
-                            </h3>
+                        <div class="tab-panel-reviews content" id="reviews">
+                            <h3>2 reviews for Basic Colored Sweatpants With Elastic Hems</h3>
                             <div class="comments">
                                 <ol class="comment-list">
                                     <li class="comment-item">
                                         <div class="comment-avatar">
-                                            <img src="img/avatars/avatar1.jpg" alt="" />
+                                            <img src="img/avatars/avatar1.jpg" alt="">
                                         </div>
                                         <div class="comment-text">
                                             <ul class="comment-star">
@@ -487,16 +481,14 @@
                                                 <time>April 23, 2022</time>
                                             </div>
                                             <div class="comment-description">
-                                                <p>
-                                                    Sed perspiciatis unde omnis iste natus error sit
-                                                    voluptatem accusantium doloremque laudantium.
-                                                </p>
+                                                <p>Sed perspiciatis unde omnis iste natus error sit voluptatem
+                                                    accusantium doloremque laudantium.</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="comment-item">
                                         <div class="comment-avatar">
-                                            <img src="img/avatars/avatar1.jpg" alt="" />
+                                            <img src="img/avatars/avatar1.jpg" alt="">
                                         </div>
                                         <div class="comment-text">
                                             <ul class="comment-star">
@@ -522,10 +514,8 @@
                                                 <time>April 23, 2022</time>
                                             </div>
                                             <div class="comment-description">
-                                                <p>
-                                                    Sed perspiciatis unde omnis iste natus error sit
-                                                    voluptatem accusantium doloremque laudantium.
-                                                </p>
+                                                <p>Sed perspiciatis unde omnis iste natus error sit voluptatem
+                                                    accusantium doloremque laudantium.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -536,8 +526,7 @@
                                 <h2>Add a review</h2>
                                 <form class="comment-form">
                                     <p class="comment-notes">
-                                        Your email address will not be published. Required fields
-                                        are marked
+                                        Your email address will not be published. Required fields are marked
                                         <span class="required">*</span>
                                     </p>
                                     <div class="comment-form-rating">
@@ -578,32 +567,33 @@
                                             Your review
                                             <span class="required">*</span>
                                         </label>
-                                        <textarea id="comment" cols="50" rows="10"></textarea>
+                                        <textarea id="comment-text" cols="50" rows="10" required></textarea>
                                     </div>
                                     <div class="comment-form-author form-comment">
                                         <label for="name">
                                             Name
                                             <span class="required">*</span>
                                         </label>
-                                        <input id="name" type="text" />
+                                        <input id="comment-name" type="text" required>
                                     </div>
                                     <div class="comment-form-email form-comment">
                                         <label for="email">
                                             Email
                                             <span class="required">*</span>
                                         </label>
-                                        <input id="email" type="email" />
+                                        <input id="email" type="email">
                                     </div>
                                     <div class="comment-form-cookies">
-                                        <input id="cookies" type="checkbox" />
+                                        <input id="cookies" name="cookies" type="checkbox">
                                         <label for="cookies">
-                                            Save my name, email, and website in this browser for the
-                                            next time I comment.
+                                            Save my name, email, and website in this browser for the next time I
+                                            comment.
                                             <span class="required">*</span>
                                         </label>
+
                                     </div>
                                     <div class="form-submit">
-                                        <input type="submit" class="btn submit" />
+                                        <input type="submit" class="btn submit">
                                     </div>
                                 </form>
                             </div>
@@ -612,6 +602,7 @@
                     </div>
                 </div>
                 <!-- tabs end -->
+
             </div>
         </div>
     </section>
@@ -678,22 +669,18 @@
                     <div class="footer-subscribe-wrapper">
                         <div class="footer-subscribe">
                             <div class="footer-subscribe-top">
-                                <h3 class="subscribe-title">
-                                    Get our emails for info on new items, sales and more.
-                                </h3>
-                                <p class="subscribe-desc">
-                                    We'll email you a voucher worth $10 off your first order
-                                    over $50.
-                                </p>
+                                <h3 class="subscribe-title">Get our emails for info on new items, sales and more.</h3>
+                                <p class="subscribe-desc">We'll email you a voucher worth $10 off your first order over
+                                    $50.</p>
                             </div>
                             <div class="footer-subscribe-bottom">
                                 <form>
-                                    <input type="text" placeholder="Enter your email address." />
+                                    <input type="text" placeholder="Enter your email address.">
                                     <button class="btn">Subscribe</button>
                                 </form>
                                 <p class="privacy-text">
-                                    By subscribing you agree to our
-                                    <a href="#">Terms & Conditions and Privacy & Cookies Policy.</a>
+                                    By subscribing you agree to our <a href="#">Terms & Conditions and Privacy & Cookies
+                                        Policy.</a>
                                 </p>
                             </div>
                         </div>
@@ -701,7 +688,7 @@
                     <div class="footer-contact-wrapper">
                         <div class="footer-contact-top">
                             <h3 class="contact-title">
-                                Need help? <br />
+                                Need help? <br>
                                 (+90) 123 456 78 90
                             </h3>
                             <p class="contact-desc">We are available 8:00am – 7:00pm</p>
@@ -709,15 +696,16 @@
                         <div class="footer-contact-bottom">
                             <div class="download-app">
                                 <a href="#">
-                                    <img src="img/footer/app-store.png" alt="" />
+                                    <img src="img/footer/app-store.png" alt="">
                                 </a>
                                 <a href="#">
-                                    <img src="img/footer/google-play.png" alt="" />
+                                    <img src="img/footer/google-play.png" alt="">
                                 </a>
                             </div>
                             <p class="privacy-text">
-                                <strong>Shopping App:</strong> Try our View in Your Room
-                                feature, manage registries and save payment info.
+                                <strong>Shopping App:</strong> Try our View in Your Room feature, manage registries and
+                                save payment
+                                info.
                             </p>
                         </div>
                     </div>
@@ -732,15 +720,15 @@
                             <a href="#" class="logo">LOGO</a>
                         </div>
                         <div class="footer-desc">
-                            <p>
-                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                                maecenas accumsan lacus vel facilisis in termapol.
-                            </p>
+                            <p> Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
+                                vel facilisis
+                                in
+                                termapol.</p>
                         </div>
                         <div class="footer-contact">
                             <p>
-                                <a href="tel:555 555 55 55">(+800) 1234 5678 90</a> –
-                                <a href="mailto:info@example.com">info@example.com</a>
+                                <a href="tel:555 555 55 55">(+800) 1234 5678 90</a> – <a
+                                    href="mailto:info@example.com">info@example.com</a>
                             </p>
                         </div>
                     </div>
@@ -832,12 +820,11 @@
                 <div class="footer-copyright">
                     <div class="site-copyright">
                         <p>
-                            Copyright 2022 © E-Commerce Theme. All right reserved. Powered
-                            by Emin Basbayan.
+                            Copyright 2022 © E-Commerce Theme. All right reserved. Powered by Emin Basbayan.
                         </p>
                     </div>
                     <a href="#">
-                        <img src="img/footer/cards.png" alt="" />
+                        <img src="img/footer/cards.png" alt="">
                     </a>
                     <div class="footer-menu">
                         <ul class="footer-menu-list">
@@ -857,6 +844,7 @@
         </div>
     </footer>
     <!--! footer end  -->
+
 
     <script src="js/main.js" type="module"></script>
     <script src="js/single-product.js" type="module"></script>
